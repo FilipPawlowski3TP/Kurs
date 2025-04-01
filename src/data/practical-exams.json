@@ -1,0 +1,68 @@
+{
+  "exams": [
+    {
+      "id": "inf02-2024",
+      "year": "2024",
+      "title": "INF.02 - Egzamin praktyczny 2024",
+      "description": "Zadania praktyczne z administracji i eksploatacji systemów komputerowych",
+      "category": "INF.02",
+      "hasSolution": true,
+      "tasks": [
+        {
+          "id": 1,
+          "title": "Zadanie 1 - Konfiguracja sieci",
+          "description": "Skonfiguruj sieć lokalną zgodnie z podanymi wymaganiami.",
+          "requirements": [
+            "Przypisz adresy IP z zakresu 192.168.1.0/24",
+            "Skonfiguruj serwer DHCP",
+            "Ustaw maskę podsieci 255.255.255.0"
+          ],
+          "solution": "1. Otwórz Panel sterowania -> Sieć i Internet -> Centrum sieci i udostępniania\n2. Wybierz 'Zmień ustawienia karty sieciowej'\n3. Kliknij prawym przyciskiem myszy na kartę sieciową -> Właściwości\n4. Wybierz 'Protokół internetowy w wersji 4 (TCP/IPv4)' -> Właściwości\n5. Wprowadź adres IP: 192.168.1.1\n6. Wprowadź maskę podsieci: 255.255.255.0\n7. Skonfiguruj serwer DHCP w Panelu administracyjnym -> Rola serwera -> DHCP"
+        },
+        {
+          "id": 2,
+          "title": "Zadanie 2 - Konfiguracja serwera WWW",
+          "description": "Skonfiguruj serwer WWW zgodnie z podanymi wymaganiami.",
+          "requirements": [
+            "Zainstaluj serwer Apache",
+            "Skonfiguruj wirtualne hosty",
+            "Włącz obsługę SSL"
+          ],
+          "solution": "1. Pobierz i zainstaluj Apache z oficjalnej strony\n2. Edytuj plik httpd.conf:\n   - Dodaj VirtualHost dla każdej domeny\n   - Włącz mod_ssl\n3. Wygeneruj certyfikat SSL\n4. Skonfiguruj VirtualHost z SSL"
+        }
+      ]
+    },
+    {
+      "id": "inf03-2024",
+      "year": "2024",
+      "title": "INF.03 - Egzamin praktyczny 2024",
+      "description": "Zadania praktyczne z tworzenia i administrowania bazami danych",
+      "category": "INF.03",
+      "hasSolution": true,
+      "tasks": [
+        {
+          "id": 1,
+          "title": "Zadanie 1 - Projektowanie bazy danych",
+          "description": "Zaprojektuj bazę danych dla systemu bibliotecznego.",
+          "requirements": [
+            "Utwórz schemat bazy danych",
+            "Zdefiniuj relacje między tabelami",
+            "Dodaj odpowiednie indeksy"
+          ],
+          "solution": "1. Utwórz tabele:\n   - Ksiazki (id, tytul, autor, isbn)\n   - Czytelnicy (id, imie, nazwisko, pesel)\n   - Wypozyczenia (id, ksiazka_id, czytelnik_id, data_wypozyczenia)\n2. Dodaj klucze obce\n3. Utwórz indeksy na kolumnach często używanych w wyszukiwaniach"
+        },
+        {
+          "id": 2,
+          "title": "Zadanie 2 - Optymalizacja zapytań",
+          "description": "Zoptymalizuj podane zapytania SQL.",
+          "requirements": [
+            "Przeanalizuj plany wykonania zapytań",
+            "Dodaj odpowiednie indeksy",
+            "Zmodyfikuj zapytania dla lepszej wydajności"
+          ],
+          "solution": "1. Użyj EXPLAIN ANALYZE do analizy zapytań\n2. Dodaj indeksy na kolumnach używanych w WHERE i JOIN\n3. Zmodyfikuj zapytania:\n   - Użyj IN zamiast OR\n   - Unikaj SELECT *\n   - Użyj EXISTS zamiast IN dla podzapytań"
+        }
+      ]
+    }
+  ]
+} 

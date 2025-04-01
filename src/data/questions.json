@@ -1,0 +1,1378 @@
+{
+  "inf02": {
+    "name": "INF.02 - Administracja i eksploatacja systemów komputerowych",
+    "questions": [
+      {
+        "id": 1,
+        "question": "Którego polecenia należy użyć, aby wyraz TEKST został wyświetlony w kolorze czarnym w oknie przeglądarki internetowej?",
+        "answers": [
+          "<body color=\"black\"> TEKST </font>",
+          "<font color=\"czarny\"> TEKST </font>",
+          "<font color=\"#000000\"> TEKST </font>",
+          "<text color=\"black\"> TEKST </text>"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Aby wyświetlić tekst w kolorze czarnym w HTML, należy użyć znacznika <font> z atrybutem color ustawionym na kod szesnastkowy #000000."
+      },
+      {
+        "id": 2,
+        "question": "Które polecenie w systemie Linux służy do wyświetlenia zawartości katalogu?",
+        "answers": [
+          "dir",
+          "ls",
+          "show",
+          "list"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Polecenie 'ls' w systemie Linux służy do wyświetlania zawartości katalogu."
+      },
+      {
+        "id": 3,
+        "question": "Jaki protokół jest używany do bezpiecznego transferu plików?",
+        "answers": [
+          "HTTP",
+          "FTP",
+          "SFTP",
+          "SMTP"
+        ],
+        "correctAnswer": 2,
+        "explanation": "SFTP (SSH File Transfer Protocol) zapewnia bezpieczny transfer plików poprzez szyfrowanie."
+      },
+      {
+        "id": 4,
+        "question": "Który adres IP jest adresem prywatnym?",
+        "answers": [
+          "8.8.8.8",
+          "192.168.1.1",
+          "216.58.209.174",
+          "173.194.222.113"
+        ],
+        "correctAnswer": 1,
+        "explanation": "192.168.1.1 należy do zakresu adresów prywatnych 192.168.0.0/16."
+      },
+      {
+        "id": 5,
+        "question": "Co oznacza skrót RAID?",
+        "answers": [
+          "Random Access Internal Drive",
+          "Redundant Array of Independent Disks",
+          "Remote Access Internet Database",
+          "Rapid Access Information Device"
+        ],
+        "correctAnswer": 1,
+        "explanation": "RAID oznacza Redundant Array of Independent Disks - technologię łączenia dysków w macierze."
+      },
+      {
+        "id": 6,
+        "question": "Jakie polecenie służy do zmiany uprawnień pliku w systemie Linux?",
+        "answers": [
+          "attrib",
+          "chmod",
+          "chown",
+          "rights"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Polecenie chmod służy do zmiany uprawnień plików i katalogów w systemie Linux."
+      },
+      {
+        "id": 7,
+        "question": "Który port jest domyślnie używany przez protokół HTTP?",
+        "answers": [
+          "21",
+          "22",
+          "80",
+          "443"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Port 80 jest domyślnym portem dla protokołu HTTP."
+      },
+      {
+        "id": 8,
+        "question": "Co oznacza skrót DNS?",
+        "answers": [
+          "Data Network Service",
+          "Domain Name System",
+          "Digital Network Security",
+          "Dynamic Network Service"
+        ],
+        "correctAnswer": 1,
+        "explanation": "DNS (Domain Name System) to system serwerów, protokołów i usług, który tłumaczy nazwy domenowe na adresy IP."
+      },
+      {
+        "id": 9,
+        "question": "Który typ kabla sieciowego jest najczęściej używany w sieciach lokalnych?",
+        "answers": [
+          "Kabel koncentryczny",
+          "Skrętka UTP",
+          "Światłowód",
+          "Kabel telefoniczny"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Skrętka UTP (Unshielded Twisted Pair) jest najczęściej używanym typem kabla w sieciach lokalnych."
+      },
+      {
+        "id": 10,
+        "question": "Co to jest DHCP?",
+        "answers": [
+          "Dynamic Host Configuration Protocol",
+          "Domain Host Control Protocol",
+          "Digital Host Configuration Protocol",
+          "Dynamic Host Control Program"
+        ],
+        "correctAnswer": 0,
+        "explanation": "DHCP to protokół dynamicznego przydzielania adresów IP i innych parametrów konfiguracyjnych."
+      },
+      {
+        "id": 11,
+        "question": "W poleceniach, których celem jest odtwarzanie na stronie internetowej dźwięku jako podkładu muzycznego NIE wykorzystuje się atrybutu",
+        "answers": [
+          "loop=\"10\"",
+          "balance=\"-10\"",
+          "volume=\"-100\"",
+          "href=\"C:/100.wav\""
+        ],
+        "correctAnswer": 3,
+        "explanation": "Atrybut href nie jest używany do kontroli odtwarzania dźwięku, służy do określania ścieżki do pliku."
+      },
+      {
+        "id": 12,
+        "question": "Jakiego znacznika należy użyć, aby przejść do kolejnej linii tekstu, nie tworząc akapitu na stronie internetowej?",
+        "answers": [
+          "<p>",
+          "</b>",
+          "<br>",
+          "</br>"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Znacznik <br> służy do przejścia do nowej linii bez tworzenia nowego akapitu."
+      },
+      {
+        "id": 13,
+        "question": "Kaskadowe arkusze stylów tworzy się w celu",
+        "answers": [
+          "ułatwienia formatowania strony",
+          "nadpisywania wartości znaczników już ustawionych na stronie",
+          "połączenia struktury dokumentu strony z właściwą formą jego prezentacji",
+          "blokowania jakichkolwiek zmian w wartościach znaczników już przypisanych w pliku CSS"
+        ],
+        "correctAnswer": 2,
+        "explanation": "CSS służy do oddzielenia struktury dokumentu od jego prezentacji wizualnej."
+      },
+      {
+        "id": 14,
+        "question": "W procesie walidacji stron internetowych nie bada się",
+        "answers": [
+          "działania linków",
+          "błędów składni kodu",
+          "zgodności z przeglądarkami",
+          "źródła pochodzenia narzędzi edytorskich"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Walidacja stron internetowych nie sprawdza źródła pochodzenia narzędzi edytorskich, skupia się na poprawności kodu i zgodności ze standardami."
+      },
+      {
+        "id": 15,
+        "question": "Edytor spełniający założenia WYSIWYG musi umożliwiać",
+        "answers": [
+          "tworzenie podstawowej grafiki wektorowej",
+          "publikację strony na serwerze poprzez wbudowanego klienta FTP",
+          "obróbkę plików dźwiękowych przed umieszczeniem ich na stronie internetowej",
+          "uzyskanie zbliżonego wyniku tworzonej strony do jej obrazu w przeglądarce internetowej"
+        ],
+        "correctAnswer": 3,
+        "explanation": "WYSIWYG (What You See Is What You Get) to edytor, który pokazuje dokładnie taki sam efekt końcowy, jaki będzie widoczny w przeglądarce."
+      },
+      {
+        "id": 16,
+        "question": "Do graficznego tworzenia stron internetowych należy wykorzystać",
+        "answers": [
+          "edytor CSS",
+          "przeglądarkę internetową",
+          "program typu WYSIWYG",
+          "program MS Office Picture Manager"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Program typu WYSIWYG (What You See Is What You Get) jest najlepszym narzędziem do graficznego tworzenia stron internetowych."
+      },
+      {
+        "id": 17,
+        "question": "W podanej regule CSS: h1 {color: blue} h1 oznacza",
+        "answers": [
+          "klasę",
+          "wartość",
+          "selektor",
+          "deklarację"
+        ],
+        "correctAnswer": 2,
+        "explanation": "W regule CSS h1 jest selektorem, który określa, do jakich elementów HTML zostanie zastosowana reguła."
+      },
+      {
+        "id": 18,
+        "question": "Który protokół jest używany do bezpiecznego połączenia z serwerem?",
+        "answers": [
+          "HTTP",
+          "FTP",
+          "SSH",
+          "SMTP"
+        ],
+        "correctAnswer": 2,
+        "explanation": "SSH (Secure Shell) to protokół zapewniający bezpieczne połączenie z serwerem poprzez szyfrowanie."
+      },
+      {
+        "id": 19,
+        "question": "Co oznacza skrót DHCP?",
+        "answers": [
+          "Dynamic Host Configuration Protocol",
+          "Domain Host Control Protocol",
+          "Digital Host Configuration Protocol",
+          "Dynamic Host Control Program"
+        ],
+        "correctAnswer": 0,
+        "explanation": "DHCP to protokół dynamicznego przydzielania adresów IP i innych parametrów konfiguracyjnych."
+      },
+      {
+        "id": 20,
+        "question": "Który port jest domyślnie używany przez protokół HTTPS?",
+        "answers": [
+          "21",
+          "22",
+          "80",
+          "443"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Port 443 jest domyślnym portem dla protokołu HTTPS (HTTP Secure)."
+      },
+      {
+        "id": 21,
+        "question": "Co to jest DNS?",
+        "answers": [
+          "Data Network Service",
+          "Domain Name System",
+          "Digital Network Security",
+          "Dynamic Network Service"
+        ],
+        "correctAnswer": 1,
+        "explanation": "DNS (Domain Name System) to system serwerów, protokołów i usług, który tłumaczy nazwy domenowe na adresy IP."
+      },
+      {
+        "id": 22,
+        "question": "Który typ kabla sieciowego jest najczęściej używany w sieciach lokalnych?",
+        "answers": [
+          "Kabel koncentryczny",
+          "Skrętka UTP",
+          "Światłowód",
+          "Kabel telefoniczny"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Skrętka UTP (Unshielded Twisted Pair) jest najczęściej używanym typem kabla w sieciach lokalnych."
+      },
+      {
+        "id": 23,
+        "question": "Co to jest RAID?",
+        "answers": [
+          "Random Access Internal Drive",
+          "Redundant Array of Independent Disks",
+          "Remote Access Internet Database",
+          "Rapid Access Information Device"
+        ],
+        "correctAnswer": 1,
+        "explanation": "RAID oznacza Redundant Array of Independent Disks - technologię łączenia dysków w macierze."
+      },
+      {
+        "id": 24,
+        "question": "Jakie polecenie służy do zmiany uprawnień pliku w systemie Linux?",
+        "answers": [
+          "attrib",
+          "chmod",
+          "chown",
+          "rights"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Polecenie chmod służy do zmiany uprawnień plików i katalogów w systemie Linux."
+      },
+      {
+        "id": 25,
+        "question": "Co to jest firewall?",
+        "answers": [
+          "Program do tworzenia kopii zapasowych",
+          "System zabezpieczeń sieciowych",
+          "Program do kompresji plików",
+          "System zarządzania bazą danych"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Firewall to system zabezpieczeń sieciowych, który kontroluje ruch sieciowy i blokuje nieautoryzowany dostęp."
+      },
+      {
+        "id": 26,
+        "question": "Który protokół jest używany do wysyłania poczty elektronicznej?",
+        "answers": [
+          "HTTP",
+          "FTP",
+          "SMTP",
+          "SSH"
+        ],
+        "correctAnswer": 2,
+        "explanation": "SMTP (Simple Mail Transfer Protocol) to protokół używany do wysyłania poczty elektronicznej."
+      },
+      {
+        "id": 27,
+        "question": "Co to jest VPN?",
+        "answers": [
+          "Virtual Private Network",
+          "Video Processing Network",
+          "Voice Protocol Network",
+          "Virtual Protocol Network"
+        ],
+        "correctAnswer": 0,
+        "explanation": "VPN (Virtual Private Network) to technologia tworzenia bezpiecznego połączenia sieciowego przez publiczną sieć."
+      },
+      {
+        "id": 28,
+        "question": "Który protokół jest używany do odbierania poczty elektronicznej?",
+        "answers": [
+          "HTTP",
+          "POP3",
+          "FTP",
+          "SSH"
+        ],
+        "correctAnswer": 1,
+        "explanation": "POP3 (Post Office Protocol version 3) to protokół używany do odbierania poczty elektronicznej."
+      },
+      {
+        "id": 29,
+        "question": "Co to jest NAT?",
+        "answers": [
+          "Network Address Translation",
+          "Network Access Type",
+          "Network Application Tool",
+          "Network Address Type"
+        ],
+        "correctAnswer": 0,
+        "explanation": "NAT (Network Address Translation) to technika translacji adresów IP, pozwalająca na współdzielenie jednego publicznego adresu IP przez wiele urządzeń w sieci lokalnej."
+      },
+      {
+        "id": 30,
+        "question": "Który protokół jest używany do przesyłania plików?",
+        "answers": [
+          "HTTP",
+          "FTP",
+          "SMTP",
+          "SSH"
+        ],
+        "correctAnswer": 1,
+        "explanation": "FTP (File Transfer Protocol) to protokół używany do przesyłania plików między komputerami w sieci."
+      },
+      {
+        "id": 31,
+        "question": "Co to jest MAC address?",
+        "answers": [
+          "Media Access Control address",
+          "Memory Access Control address",
+          "Main Access Control address",
+          "Media Access Code address"
+        ],
+        "correctAnswer": 0,
+        "explanation": "MAC address (Media Access Control address) to unikalny adres fizyczny karty sieciowej."
+      },
+      {
+        "id": 32,
+        "question": "Który protokół jest używany do synchronizacji czasu w sieci?",
+        "answers": [
+          "HTTP",
+          "NTP",
+          "FTP",
+          "SSH"
+        ],
+        "correctAnswer": 1,
+        "explanation": "NTP (Network Time Protocol) to protokół używany do synchronizacji czasu w sieci komputerowej."
+      },
+      {
+        "id": 33,
+        "question": "Co to jest DHCP lease?",
+        "answers": [
+          "Czas ważności przydzielonego adresu IP",
+          "Typ połączenia sieciowego",
+          "Rodzaj protokołu sieciowego",
+          "Sposób szyfrowania danych"
+        ],
+        "correctAnswer": 0,
+        "explanation": "DHCP lease to okres, na jaki serwer DHCP przydziela adres IP klientowi."
+      },
+      {
+        "id": 34,
+        "question": "Który protokół jest używany do zdalnego zarządzania serwerem?",
+        "answers": [
+          "HTTP",
+          "FTP",
+          "SSH",
+          "SMTP"
+        ],
+        "correctAnswer": 2,
+        "explanation": "SSH (Secure Shell) to protokół używany do bezpiecznego zdalnego zarządzania serwerem."
+      },
+      {
+        "id": 35,
+        "question": "Co to jest subnet mask?",
+        "answers": [
+          "Maska podsieci",
+          "Adres serwera",
+          "Typ protokołu",
+          "Rodzaj szyfrowania"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Subnet mask (maska podsieci) określa, która część adresu IP jest adresem sieci, a która adresem hosta."
+      },
+      {
+        "id": 36,
+        "question": "Który protokół jest używany do przesyłania głosu przez internet?",
+        "answers": [
+          "HTTP",
+          "FTP",
+          "VoIP",
+          "SSH"
+        ],
+        "correctAnswer": 2,
+        "explanation": "VoIP (Voice over Internet Protocol) to technologia przesyłania głosu przez internet."
+      },
+      {
+        "id": 37,
+        "question": "Co to jest ping?",
+        "answers": [
+          "Program do kompresji plików",
+          "Narzędzie do testowania połączenia sieciowego",
+          "System zarządzania bazą danych",
+          "Program do tworzenia kopii zapasowych"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Ping to narzędzie służące do sprawdzania dostępności hosta w sieci komputerowej."
+      },
+      {
+        "id": 38,
+        "question": "Który protokół jest używany do przesyłania plików w trybie binarnym?",
+        "answers": [
+          "HTTP",
+          "FTP",
+          "SMTP",
+          "SSH"
+        ],
+        "correctAnswer": 1,
+        "explanation": "FTP (File Transfer Protocol) obsługuje przesyłanie plików w trybie binarnym."
+      },
+      {
+        "id": 39,
+        "question": "Co to jest traceroute?",
+        "answers": [
+          "Program do kompresji plików",
+          "Narzędzie do śledzenia ścieżki pakietów w sieci",
+          "System zarządzania bazą danych",
+          "Program do tworzenia kopii zapasowych"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Traceroute to narzędzie służące do śledzenia ścieżki pakietów w sieci komputerowej."
+      },
+      {
+        "id": 40,
+        "question": "Który protokół jest używany do przesyłania plików w trybie tekstowym?",
+        "answers": [
+          "HTTP",
+          "FTP",
+          "SMTP",
+          "SSH"
+        ],
+        "correctAnswer": 1,
+        "explanation": "FTP (File Transfer Protocol) obsługuje przesyłanie plików w trybie tekstowym."
+      },
+      {
+        "id": 41,
+        "question": "Co to jest nslookup?",
+        "answers": [
+          "Program do kompresji plików",
+          "Narzędzie do sprawdzania rekordów DNS",
+          "System zarządzania bazą danych",
+          "Program do tworzenia kopii zapasowych"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Nslookup to narzędzie służące do sprawdzania rekordów DNS."
+      },
+      {
+        "id": 42,
+        "question": "Który protokół jest używany do przesyłania plików w trybie pasywnym?",
+        "answers": [
+          "HTTP",
+          "FTP",
+          "SMTP",
+          "SSH"
+        ],
+        "correctAnswer": 1,
+        "explanation": "FTP (File Transfer Protocol) obsługuje przesyłanie plików w trybie pasywnym."
+      },
+      {
+        "id": 43,
+        "question": "Co to jest netstat?",
+        "answers": [
+          "Program do kompresji plików",
+          "Narzędzie do wyświetlania statystyk sieciowych",
+          "System zarządzania bazą danych",
+          "Program do tworzenia kopii zapasowych"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Netstat to narzędzie służące do wyświetlania statystyk sieciowych i aktywnych połączeń."
+      },
+      {
+        "id": 44,
+        "question": "Który protokół jest używany do przesyłania plików w trybie aktywnym?",
+        "answers": [
+          "HTTP",
+          "FTP",
+          "SMTP",
+          "SSH"
+        ],
+        "correctAnswer": 1,
+        "explanation": "FTP (File Transfer Protocol) obsługuje przesyłanie plików w trybie aktywnym."
+      },
+      {
+        "id": 45,
+        "question": "Co to jest ifconfig?",
+        "answers": [
+          "Program do kompresji plików",
+          "Narzędzie do konfiguracji interfejsów sieciowych",
+          "System zarządzania bazą danych",
+          "Program do tworzenia kopii zapasowych"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Ifconfig to narzędzie służące do konfiguracji interfejsów sieciowych w systemach Unix/Linux."
+      },
+      {
+        "id": 46,
+        "question": "Który protokół jest używany do przesyłania plików w trybie bezpiecznym?",
+        "answers": [
+          "HTTP",
+          "SFTP",
+          "SMTP",
+          "SSH"
+        ],
+        "correctAnswer": 1,
+        "explanation": "SFTP (SSH File Transfer Protocol) to bezpieczna wersja protokołu FTP."
+      },
+      {
+        "id": 47,
+        "question": "Co to jest iptables?",
+        "answers": [
+          "Program do kompresji plików",
+          "System zapory sieciowej w Linux",
+          "System zarządzania bazą danych",
+          "Program do tworzenia kopii zapasowych"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Iptables to system zapory sieciowej w systemach Linux."
+      },
+      {
+        "id": 48,
+        "question": "Który protokół jest używany do przesyłania plików w trybie szyfrowanym?",
+        "answers": [
+          "HTTP",
+          "FTPS",
+          "SMTP",
+          "SSH"
+        ],
+        "correctAnswer": 1,
+        "explanation": "FTPS (FTP over SSL/TLS) to szyfrowana wersja protokołu FTP."
+      },
+      {
+        "id": 49,
+        "question": "Co to jest nmap?",
+        "answers": [
+          "Program do kompresji plików",
+          "Narzędzie do skanowania portów",
+          "System zarządzania bazą danych",
+          "Program do tworzenia kopii zapasowych"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Nmap to narzędzie służące do skanowania portów i wykrywania usług w sieci."
+      },
+      {
+        "id": 50,
+        "question": "Który protokół jest używany do przesyłania plików w trybie kompresji?",
+        "answers": [
+          "HTTP",
+          "FTP",
+          "SMTP",
+          "SSH"
+        ],
+        "correctAnswer": 1,
+        "explanation": "FTP (File Transfer Protocol) obsługuje przesyłanie plików w trybie kompresji."
+      }
+    ]
+  },
+  "inf03": {
+    "name": "INF.03 - Tworzenie i administrowanie bazami danych",
+    "questions": [
+      {
+        "id": 1,
+        "question": "Które polecenie SQL służy do utworzenia nowej bazy danych?",
+        "answers": [
+          "NEW DATABASE",
+          "DATABASE CREATE",
+          "CREATE DATABASE",
+          "MAKE DATABASE"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Polecenie CREATE DATABASE jest standardowym poleceniem SQL do tworzenia nowej bazy danych."
+      },
+      {
+        "id": 2,
+        "question": "Jaki typ relacji występuje między tabelą Klienci a tabelą Zamówienia?",
+        "answers": [
+          "jeden do jednego",
+          "jeden do wielu",
+          "wiele do jednego",
+          "wiele do wielu"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Relacja jeden do wielu występuje, gdy jeden klient może mieć wiele zamówień."
+      },
+      {
+        "id": 3,
+        "question": "Co to jest klucz obcy (FOREIGN KEY)?",
+        "answers": [
+          "Unikalny identyfikator tabeli",
+          "Pole łączące dwie tabele",
+          "Pole zawierające wartości NULL",
+          "Indeks utworzony na tabeli"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Klucz obcy to pole lub zestaw pól, które odnoszą się do klucza głównego w innej tabeli."
+      },
+      {
+        "id": 4,
+        "question": "Które polecenie SQL służy do modyfikacji istniejących rekordów?",
+        "answers": [
+          "MODIFY",
+          "CHANGE",
+          "UPDATE",
+          "ALTER"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Polecenie UPDATE służy do modyfikacji istniejących rekordów w bazie danych."
+      },
+      {
+        "id": 5,
+        "question": "Co to jest normalizacja bazy danych?",
+        "answers": [
+          "Proces kompresji danych",
+          "Proces organizacji danych w celu redukcji redundancji",
+          "Proces tworzenia kopii zapasowej",
+          "Proces indeksowania tabel"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Normalizacja to proces organizacji danych w celu eliminacji redundancji i zapewnienia spójności danych."
+      },
+      {
+        "id": 6,
+        "question": "Które polecenie SQL służy do usuwania tabeli z bazy danych?",
+        "answers": [
+          "REMOVE TABLE",
+          "DELETE TABLE",
+          "DROP TABLE",
+          "CLEAR TABLE"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Polecenie DROP TABLE służy do całkowitego usunięcia tabeli z bazy danych."
+      },
+      {
+        "id": 7,
+        "question": "Co to jest widok (VIEW) w bazie danych?",
+        "answers": [
+          "Fizyczna kopia tabeli",
+          "Wirtualna tabela oparta na wyniku zapytania",
+          "Indeks utworzony na tabeli",
+          "Kopia zapasowa tabeli"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Widok to wirtualna tabela oparta na wyniku zapytania SQL, która nie przechowuje własnych danych."
+      },
+      {
+        "id": 8,
+        "question": "Która funkcja agregująca SQL oblicza średnią wartość?",
+        "answers": [
+          "SUM",
+          "COUNT",
+          "AVG",
+          "MAX"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Funkcja AVG służy do obliczania średniej wartości z kolumny numerycznej."
+      },
+      {
+        "id": 9,
+        "question": "Co to jest transakcja w bazie danych?",
+        "answers": [
+          "Pojedyncze zapytanie SQL",
+          "Sekwencja operacji traktowana jako całość",
+          "Proces tworzenia kopii zapasowej",
+          "Proces indeksowania danych"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Transakcja to sekwencja operacji na bazie danych, która jest traktowana jako niepodzielna całość."
+      },
+      {
+        "id": 10,
+        "question": "Co oznacza skrót ACID w kontekście baz danych?",
+        "answers": [
+          "Advanced Computer Information Database",
+          "Atomicity, Consistency, Isolation, Durability",
+          "Automatic Control of Internal Data",
+          "Access Control and Identity Database"
+        ],
+        "correctAnswer": 1,
+        "explanation": "ACID to zestaw właściwości gwarantujących niezawodność transakcji w bazach danych."
+      },
+      {
+        "id": 11,
+        "question": "Jak nazywa się podzbiór strukturalnego języka zapytań, związany z formułowaniem zapytań do bazy danych za pomocą polecenia SELECT?",
+        "answers": [
+          "SQL DML (ang. Data Manipulation Language)",
+          "SQL DDL (ang. Data Definition Language)",
+          "SQL DCL (ang. Data Control Language)",
+          "SQL DQL (ang. Data Query Language)"
+        ],
+        "correctAnswer": 3,
+        "explanation": "SQL DQL (Data Query Language) to podzbiór SQL służący do formułowania zapytań z użyciem polecenia SELECT."
+      },
+      {
+        "id": 12,
+        "question": "Co należy zastosować w organizacji danych, aby zapytania w bazie danych były wykonywane szybciej?",
+        "answers": [
+          "Reguły",
+          "Indeksy",
+          "Wartości domyślne",
+          "Klucze podstawowe"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Indeksy przyspieszają wyszukiwanie danych w bazie danych poprzez tworzenie dodatkowych struktur indeksowych."
+      },
+      {
+        "id": 13,
+        "question": "Jak nazywa się element bazy danych, za pomocą którego można jedynie odczytać dane z bazy, prezentując je w postaci tekstu lub wykresu?",
+        "answers": [
+          "Tabela",
+          "Raport",
+          "Zapytanie",
+          "Formularz"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Raport to element bazy danych służący do prezentacji danych w formie tekstowej lub graficznej, bez możliwości ich modyfikacji."
+      },
+      {
+        "id": 14,
+        "question": "Co należy zastosować w organizacji danych, aby zapytania w bazie danych były wykonywane szybciej?",
+        "answers": [
+          "Reguły",
+          "Indeksy",
+          "Wartości domyślne",
+          "Klucze podstawowe"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Indeksy przyspieszają wyszukiwanie danych w bazie danych poprzez tworzenie dodatkowych struktur indeksowych."
+      },
+      {
+        "id": 15,
+        "question": "W programie Microsoft Access formą zabezpieczeń dostępu do danych związaną z tabelą i kwerendą jest",
+        "answers": [
+          "stosowanie makr",
+          "przypisanie uprawnień",
+          "określanie przestrzeni tabel",
+          "wprowadzenie limitów przestrzeni dyskowej"
+        ],
+        "correctAnswer": 1,
+        "explanation": "W Microsoft Access zabezpieczenia dostępu do danych realizowane są poprzez przypisanie odpowiednich uprawnień do obiektów bazy danych."
+      },
+      {
+        "id": 16,
+        "question": "Które z wymienionych osób odpowiadają za przygotowanie systemu bazy danych do pracy produkcyjnej w sposób ciągły, zarządzanie użytkownikami i instalowanie nowych wersji systemu bazodanowego?",
+        "answers": [
+          "Projektanci narzędzi deweloperskich",
+          "Administratorzy systemu bazy danych",
+          "Administratorzy serwerów i sieci komputerowych",
+          "Projektanci i programiści Systemu Zarządzania Bazą Danych"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Administratorzy systemu bazy danych są odpowiedzialni za zarządzanie systemem bazodanowym, w tym za jego konfigurację, bezpieczeństwo i wydajność."
+      },
+      {
+        "id": 17,
+        "question": "Z jakimi mechanizmami nadawania zabezpieczeń, dającymi możliwości wykonywania operacji na bazie danych, związane są zagadnienia zarządzania kontami, użytkownikami i uprawnieniami?",
+        "answers": [
+          "Z regułami",
+          "Z atrybutami",
+          "Z przywilejami obiektowymi",
+          "Z przywilejami systemowymi"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Przywileje systemowe są związane z zarządzaniem kontami, użytkownikami i uprawnieniami w systemie bazodanowym."
+      },
+      {
+        "id": 18,
+        "question": "Metoda udostępniania bazy danych w programie Microsoft Access, dotycząca wszystkich obiektów bazy umieszczonych na dysku sieciowym i używanych jednocześnie przez różne osoby nosi nazwę",
+        "answers": [
+          "folderu sieciowego",
+          "serwera bazy danych",
+          "dzielonej bazy danych",
+          "witryny programu SharePoint"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Dzielona baza danych to metoda udostępniania bazy danych w Microsoft Access, gdzie plik bazy jest umieszczony na dysku sieciowym."
+      },
+      {
+        "id": 19,
+        "question": "Jakie należy posiadać uprawnienia, aby wykonać i odtworzyć kopię zapasową bazy danych Microsoft SQL Server?",
+        "answers": [
+          "Users",
+          "Security users",
+          "Użytkownik lokalny",
+          "Administrator systemu"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Aby wykonać i odtworzyć kopię zapasową bazy danych, wymagane są uprawnienia administratora systemu."
+      },
+      {
+        "id": 20,
+        "question": "Co to jest klucz kandydujący w bazie danych?",
+        "answers": [
+          "Klucz obcy",
+          "Potencjalny klucz główny",
+          "Klucz indeksowy",
+          "Klucz wyszukiwania"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Klucz kandydujący to atrybut lub zbiór atrybutów, które mogą być użyte jako klucz główny w tabeli."
+      },
+      {
+        "id": 21,
+        "question": "Która właściwość ACID zapewnia, że transakcja jest niepodzielna?",
+        "answers": [
+          "Atomicity",
+          "Consistency",
+          "Isolation",
+          "Durability"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Atomicity (atomowość) zapewnia, że transakcja jest niepodzielna - albo wykonuje się w całości, albo wcale."
+      },
+      {
+        "id": 22,
+        "question": "Co to jest deadlock w bazie danych?",
+        "answers": [
+          "Uszkodzenie bazy danych",
+          "Sytuacja, w której dwie transakcje blokują się nawzajem",
+          "Błąd w strukturze bazy danych",
+          "Problem z indeksami"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Deadlock to sytuacja, w której dwie lub więcej transakcji blokuje się nawzajem, oczekując na zwolnienie zasobów."
+      },
+      {
+        "id": 23,
+        "question": "Które polecenie SQL służy do usuwania danych z tabeli?",
+        "answers": [
+          "REMOVE",
+          "DELETE",
+          "DROP",
+          "CLEAR"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Polecenie DELETE służy do usuwania danych z tabeli, zachowując jej strukturę."
+      },
+      {
+        "id": 24,
+        "question": "Co to jest normalizacja w bazie danych?",
+        "answers": [
+          "Proces kompresji danych",
+          "Proces organizacji danych w celu redukcji redundancji",
+          "Proces tworzenia kopii zapasowej",
+          "Proces indeksowania tabel"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Normalizacja to proces organizacji danych w celu eliminacji redundancji i zapewnienia spójności danych."
+      },
+      {
+        "id": 25,
+        "question": "Która forma normalizacji eliminuje zależności częściowe?",
+        "answers": [
+          "1NF",
+          "2NF",
+          "3NF",
+          "BCNF"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Druga postać normalna (2NF) eliminuje zależności częściowe, wymagając, aby wszystkie atrybuty niebędące kluczem były w pełni zależne od klucza głównego."
+      },
+      {
+        "id": 26,
+        "question": "Co to jest widok materializowany?",
+        "answers": [
+          "Widok z zapisanymi wynikami",
+          "Widok z ograniczonymi uprawnieniami",
+          "Widok z szyfrowaniem",
+          "Widok z kompresją"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Widok materializowany to widok, którego wyniki są fizycznie przechowywane w bazie danych."
+      },
+      {
+        "id": 27,
+        "question": "Która funkcja agregująca SQL zlicza liczbę wierszy?",
+        "answers": [
+          "SUM",
+          "COUNT",
+          "AVG",
+          "MAX"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Funkcja COUNT służy do zliczania liczby wierszy w wyniku zapytania."
+      },
+      {
+        "id": 28,
+        "question": "Co to jest trigger w bazie danych?",
+        "answers": [
+          "Procedura wykonywana automatycznie przy określonym zdarzeniu",
+          "Narzędzie do tworzenia kopii zapasowych",
+          "System monitorowania wydajności",
+          "Mechanizm szyfrowania danych"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Trigger to procedura, która jest automatycznie wykonywana przy wystąpieniu określonego zdarzenia w bazie danych."
+      },
+      {
+        "id": 29,
+        "question": "Który typ indeksu jest najbardziej wydajny dla wyszukiwania dokładnych wartości?",
+        "answers": [
+          "Indeks klastrowy",
+          "Indeks nieklastrowy",
+          "Indeks bitmapowy",
+          "Indeks tekstowy"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Indeks klastrowy jest najbardziej wydajny dla wyszukiwania dokładnych wartości, ponieważ dane są fizycznie uporządkowane według klucza indeksu."
+      },
+      {
+        "id": 30,
+        "question": "Co to jest transakcja w bazie danych?",
+        "answers": [
+          "Pojedyncze zapytanie SQL",
+          "Sekwencja operacji traktowana jako całość",
+          "Proces tworzenia kopii zapasowej",
+          "Proces indeksowania danych"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Transakcja to sekwencja operacji na bazie danych, która jest traktowana jako niepodzielna całość."
+      },
+      {
+        "id": 31,
+        "question": "Która właściwość ACID zapewnia, że zmiany są trwałe?",
+        "answers": [
+          "Atomicity",
+          "Consistency",
+          "Isolation",
+          "Durability"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Durability (trwałość) zapewnia, że po zakończeniu transakcji zmiany są trwałe i nie mogą zostać utracone."
+      },
+      {
+        "id": 32,
+        "question": "Co to jest procedura składowa?",
+        "answers": [
+          "Kopia zapasowa bazy danych",
+          "Zapytanie SQL zapisane w bazie danych",
+          "System monitorowania wydajności",
+          "Mechanizm szyfrowania danych"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Procedura składowa to zapytanie SQL lub zestaw zapytań zapisanych w bazie danych, które mogą być wykonywane wielokrotnie."
+      },
+      {
+        "id": 33,
+        "question": "Który typ relacji występuje między tabelą Produkty a tabelą Kategorie?",
+        "answers": [
+          "jeden do jednego",
+          "jeden do wielu",
+          "wiele do jednego",
+          "wiele do wielu"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Relacja wiele do jednego występuje, gdy wiele produktów może należeć do jednej kategorii."
+      },
+      {
+        "id": 34,
+        "question": "Co to jest klucz złożony?",
+        "answers": [
+          "Klucz z szyfrowaniem",
+          "Klucz składający się z kilku atrybutów",
+          "Klucz z kompresją",
+          "Klucz z indeksowaniem"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Klucz złożony to klucz główny składający się z dwóch lub więcej atrybutów."
+      },
+      {
+        "id": 35,
+        "question": "Która właściwość ACID zapewnia, że transakcje są izolowane od siebie?",
+        "answers": [
+          "Atomicity",
+          "Consistency",
+          "Isolation",
+          "Durability"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Isolation (izolacja) zapewnia, że równoległe transakcje nie wpływają na siebie nawzajem."
+      },
+      {
+        "id": 36,
+        "question": "Co to jest indeks w bazie danych?",
+        "answers": [
+          "Kopia zapasowa danych",
+          "Struktura przyspieszająca wyszukiwanie",
+          "System monitorowania wydajności",
+          "Mechanizm szyfrowania danych"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Indeks to struktura danych, która przyspiesza wyszukiwanie informacji w bazie danych."
+      },
+      {
+        "id": 37,
+        "question": "Który typ indeksu jest najbardziej wydajny dla wyszukiwania zakresów?",
+        "answers": [
+          "Indeks klastrowy",
+          "Indeks nieklastrowy",
+          "Indeks bitmapowy",
+          "Indeks tekstowy"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Indeks klastrowy jest najbardziej wydajny dla wyszukiwania zakresów, ponieważ dane są fizycznie uporządkowane."
+      },
+      {
+        "id": 38,
+        "question": "Co to jest klucz obcy w bazie danych?",
+        "answers": [
+          "Klucz z szyfrowaniem",
+          "Klucz łączący tabele",
+          "Klucz z kompresją",
+          "Klucz z indeksowaniem"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Klucz obcy to atrybut lub zbiór atrybutów, które odwołują się do klucza głównego w innej tabeli."
+      },
+      {
+        "id": 39,
+        "question": "Która właściwość ACID zapewnia, że baza danych pozostaje w spójnym stanie?",
+        "answers": [
+          "Atomicity",
+          "Consistency",
+          "Isolation",
+          "Durability"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Consistency (spójność) zapewnia, że baza danych pozostaje w spójnym stanie przed i po wykonaniu transakcji."
+      },
+      {
+        "id": 40,
+        "question": "Co to jest widok w bazie danych?",
+        "answers": [
+          "Fizyczna kopia tabeli",
+          "Wirtualna tabela oparta na zapytaniu",
+          "System monitorowania wydajności",
+          "Mechanizm szyfrowania danych"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Widok to wirtualna tabela oparta na wyniku zapytania SQL, która nie przechowuje własnych danych."
+      },
+      {
+        "id": 41,
+        "question": "Który typ relacji występuje między tabelą Studenci a tabelą Przedmioty?",
+        "answers": [
+          "jeden do jednego",
+          "jeden do wielu",
+          "wiele do jednego",
+          "wiele do wielu"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Relacja wiele do wielu występuje, gdy jeden student może mieć wiele przedmiotów, a jeden przedmiot może być przypisany do wielu studentów."
+      },
+      {
+        "id": 42,
+        "question": "Co to jest klucz główny w bazie danych?",
+        "answers": [
+          "Klucz z szyfrowaniem",
+          "Unikalny identyfikator rekordu",
+          "Klucz z kompresją",
+          "Klucz z indeksowaniem"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Klucz główny to atrybut lub zbiór atrybutów, które jednoznacznie identyfikują każdy rekord w tabeli."
+      },
+      {
+        "id": 43,
+        "question": "Która funkcja agregująca SQL znajduje największą wartość?",
+        "answers": [
+          "SUM",
+          "COUNT",
+          "AVG",
+          "MAX"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Funkcja MAX służy do znalezienia największej wartości w kolumnie."
+      },
+      {
+        "id": 44,
+        "question": "Co to jest transakcja w bazie danych?",
+        "answers": [
+          "Pojedyncze zapytanie SQL",
+          "Sekwencja operacji traktowana jako całość",
+          "Proces tworzenia kopii zapasowej",
+          "Proces indeksowania danych"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Transakcja to sekwencja operacji na bazie danych, która jest traktowana jako niepodzielna całość."
+      },
+      {
+        "id": 45,
+        "question": "Który typ indeksu jest najbardziej wydajny dla wyszukiwania tekstu?",
+        "answers": [
+          "Indeks klastrowy",
+          "Indeks nieklastrowy",
+          "Indeks bitmapowy",
+          "Indeks tekstowy"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Indeks tekstowy jest specjalnie zoptymalizowany do wyszukiwania tekstu w bazie danych."
+      },
+      {
+        "id": 46,
+        "question": "Co to jest klucz kandydujący w bazie danych?",
+        "answers": [
+          "Klucz z szyfrowaniem",
+          "Potencjalny klucz główny",
+          "Klucz z kompresją",
+          "Klucz z indeksowaniem"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Klucz kandydujący to atrybut lub zbiór atrybutów, które mogą być użyte jako klucz główny w tabeli."
+      },
+      {
+        "id": 47,
+        "question": "Która funkcja agregująca SQL oblicza sumę wartości?",
+        "answers": [
+          "SUM",
+          "COUNT",
+          "AVG",
+          "MAX"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Funkcja SUM służy do obliczania sumy wartości w kolumnie numerycznej."
+      },
+      {
+        "id": 48,
+        "question": "Co to jest deadlock w bazie danych?",
+        "answers": [
+          "Uszkodzenie bazy danych",
+          "Sytuacja, w której dwie transakcje blokują się nawzajem",
+          "Błąd w strukturze bazy danych",
+          "Problem z indeksami"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Deadlock to sytuacja, w której dwie lub więcej transakcji blokuje się nawzajem, oczekując na zwolnienie zasobów."
+      },
+      {
+        "id": 49,
+        "question": "Który typ relacji występuje między tabelą Pracownicy a tabelą Działy?",
+        "answers": [
+          "jeden do jednego",
+          "jeden do wielu",
+          "wiele do jednego",
+          "wiele do wielu"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Relacja wiele do jednego występuje, gdy wielu pracowników może należeć do jednego działu."
+      },
+      {
+        "id": 50,
+        "question": "Co to jest widok materializowany?",
+        "answers": [
+          "Widok z zapisanymi wynikami",
+          "Widok z ograniczonymi uprawnieniami",
+          "Widok z szyfrowaniem",
+          "Widok z kompresją"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Widok materializowany to widok, którego wyniki są fizycznie przechowywane w bazie danych."
+      }
+    ]
+  },
+  "inf04": {
+    "name": "INF.04 - Programowanie aplikacji",
+    "questions": [
+      {
+        "id": 1,
+        "question": "Typ zmiennej w języku JavaScript",
+        "answers": [
+          "nie występuje",
+          "jest tylko jeden",
+          "następuje poprzez przypisanie wartości",
+          "musi być zadeklarowany na początku skryptu"
+        ],
+        "correctAnswer": 2,
+        "explanation": "W JavaScript typ zmiennej jest określany dynamicznie na podstawie przypisanej wartości."
+      },
+      {
+        "id": 2,
+        "question": "Zmienne typu int odnoszą się do liczb",
+        "answers": [
+          "naturalnych",
+          "całkowitych",
+          "w notacji stałoprzecinkowej",
+          "w notacji zmiennoprzecinkowej"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Typ int służy do przechowywania liczb całkowitych."
+      },
+      {
+        "id": 3,
+        "question": "Jaki program komputerowy przekształca kod źródłowy, napisany w konkretnym języku programowania, na język komputera?",
+        "answers": [
+          "Debugger",
+          "Kompilator",
+          "Edytor kodu źródłowego",
+          "Środowisko programistyczne"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Kompilator to program, który tłumaczy kod źródłowy na kod maszynowy zrozumiały dla komputera."
+      },
+      {
+        "id": 4,
+        "question": "Jak nazywa się program, który wykonuje instrukcje zawarte w kodzie źródłowym tworzonego programu bez uprzedniego generowania programu wynikowego?",
+        "answers": [
+          "Interpreter",
+          "Kompilator",
+          "Konwerter kodu",
+          "Konwerter języka"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Interpreter to program, który wykonuje kod źródłowy w locie, bez wcześniejszego kompilowania."
+      },
+      {
+        "id": 5,
+        "question": "Co definiuje w języku C++ przedstawiony fragment kodu?",
+        "answers": [
+          "Hierarchię zmiennych",
+          "Trzy zmienne niepowiązane ze sobą",
+          "Typ strukturalny składający się z trzech pól",
+          "Kontakt pomiędzy zmiennymi globalnymi i lokalnymi"
+        ],
+        "correctAnswer": 2,
+        "explanation": "W C++ fragment kodu definiujący strukturę z trzema polami tworzy typ strukturalny."
+      },
+      {
+        "id": 6,
+        "question": "Sposób programowania, w którym ciąg poleceń (sekwencji instrukcji) przekazywanych komputerowi jest postrzegany jako program, nosi nazwę programowania",
+        "answers": [
+          "stanowego",
+          "logicznego",
+          "funkcyjnego",
+          "imperatywnego"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Programowanie imperatywne to paradygmat programowania, w którym program jest sekwencją instrukcji określających, jak komputer ma wykonać zadanie."
+      }
+    ]
+  },
+  "inf05": {
+    "name": "INF.05 - Grafika komputerowa",
+    "questions": [
+      {
+        "id": 1,
+        "question": "Model opisu przestrzeni barw o parametrach: odcień, nasycenie i jasność, to",
+        "answers": [
+          "HSV",
+          "RGB",
+          "CMY",
+          "CMYK"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Model HSV (Hue, Saturation, Value) opisuje kolory poprzez odcień, nasycenie i jasność."
+      },
+      {
+        "id": 2,
+        "question": "Wskaż model barw, który stosuje się do wyświetlania kolorów na ekranie monitora komputerowego",
+        "answers": [
+          "HLS",
+          "RGB",
+          "CMY",
+          "CMYK"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Model RGB jest używany do wyświetlania kolorów na ekranach monitorów."
+      },
+      {
+        "id": 3,
+        "question": "Który parametr obiektu graficznego ulegnie zmianie po modyfikacji wartości kanału alfa?",
+        "answers": [
+          "Nasycenie barw",
+          "Przezroczystość",
+          "Ostrość krawędzi",
+          "Kolejność wyświetlenia pikseli"
+        ],
+        "correctAnswer": 1,
+        "explanation": "Kanał alfa kontroluje przezroczystość obiektu graficznego."
+      },
+      {
+        "id": 4,
+        "question": "Jak nazywa się proces przedstawienia, we właściwej dla danego środowiska formie, informacji zawartej w dokumencie elektronicznym?",
+        "answers": [
+          "Mapowanie",
+          "Rasteryzacja",
+          "Renderowanie",
+          "Teksturowanie"
+        ],
+        "correctAnswer": 2,
+        "explanation": "Renderowanie to proces generowania obrazu z modelu 3D lub innego opisu matematycznego."
+      },
+      {
+        "id": 5,
+        "question": "Proces filtracji sygnału wejściowego w dziedzinie czasu, obejmujący zasadę superpozycji, związany jest filtrem",
+        "answers": [
+          "liniowym",
+          "przyczynowym",
+          "niezmiennym w czasie",
+          "o skończonej odpowiedzi impulsowej"
+        ],
+        "correctAnswer": 0,
+        "explanation": "Filtr liniowy charakteryzuje się zasadą superpozycji, która mówi, że odpowiedź na sumę sygnałów wejściowych jest sumą odpowiedzi na poszczególne sygnały."
+      },
+      {
+        "id": 6,
+        "question": "Jakiego formatu należy użyć do zapisu obrazu z kompresją stratną?",
+        "answers": [
+          "GIF",
+          "PNG",
+          "PCX",
+          "JPEG"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Format JPEG wykorzystuje kompresję stratną, która pozwala na znaczne zmniejszenie rozmiaru pliku kosztem jakości obrazu."
+      },
+      {
+        "id": 7,
+        "question": "Najprostszy sposób zamiany obiektu oznaczonego cyfrą 1 na obiekt oznaczony cyfrą 2 polega na",
+        "answers": [
+          "animowaniu obiektu",
+          "zmianie warstwy obiektu",
+          "narysowaniu docelowego obiektu",
+          "geometrycznym transformowaniu obiektu"
+        ],
+        "correctAnswer": 3,
+        "explanation": "Transformacja geometryczna to najprostszy sposób przekształcenia obiektu w inny obiekt poprzez operacje matematyczne."
+      }
+    ]
+  }
+} 
